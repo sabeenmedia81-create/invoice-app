@@ -1,3 +1,9 @@
+import "../globals.css";
+
+export function generateStaticParams() {
+  return [{ locale: "en" }];
+}
+
 export default function LocaleLayout({
   children,
   params,
